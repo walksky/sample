@@ -68,5 +68,6 @@ class UsersController extends Controller
         $user->delete();
         session()->flash('success','成功删除用户!');
         return back();
+        //测试一下
     }
 }
